@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>WEB</title>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <script>
+
+function login(){  //로긴펑션 붙여서 아래 인풋 화면 치환시킴
+    var password = '0ffe1abd1a08215353c233d6e009613e95eec4253832a761af28ff37ac5a150c';
+    var inputPassword = sha256(prompt('password?'));
+    if(password === inputPassword) {
+        alert('헤헤헤헤헤헤헤헤헤');
+        var utterance = new SpeechSynthesisUtterance('주인님 어서오세요');
+        window.speechSynthesis.speak(utterance);
+    } else {
+        alert('ASDL;FLKASJDVN?');
+        var utterance = new SpeechSynthesisUtterance('29ROIJWEFJANSDKJVB');
+        window.speechSynthesis.speak(utterance);
+        document.querySelector('body').className = 'hinge';
+    }
+}
+        
+    </script>
+</head>
+<body style="text-align: center;" style.backgroundColor='black'>
+<h1>★♨♬조창성'UNIVERSE★♨♬</h1><br>
+
+<h1>PUSH THE LOGIN BUTTON</h1>
+<h3>▽</h3>
+
+    <input type="button" value="login" onclick="
+        login();
+        
+    "><br><br>
+
+<h2><a href="first.html">Go to main page</a></h2><br>
+
+<img src="C:\Users\user\Desktop\web\고스트버스터즈.png">
+
+
+
+</html>
+
+
+
